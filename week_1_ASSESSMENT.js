@@ -23,7 +23,7 @@
 
 //question 3
 
-// output of this question will be "3 3 3" i.e three times "3" because even if the timer is 0 in settimeout , javascript compiler will still put the operation on eventloop and in the mean time the will will run and thw value of will increase and when these operation will come in call stack the value of i will be 3 that why it will print 3 three times as result
+// output of this question will be "3 3 3" i.e three times "3" because even if the timer is 0 in settimeout , javascript compiler will still put the operation on eventloop and in the mean time the loop will run and the value of will increase and when these operation will come in call stack the value of i will be 3 and as it will have functional scope(bacause of var) because of that it will point to same address for all i that why it will print 3 three times as result
 
 //question 4
 
@@ -232,3 +232,7 @@
 // dequeue();
 // enqueue(4);
 // dequeue();
+
+//question 5
+
+// this will give "1 2 3" as output because the value of i is scoped (because of the use of "let")and will refer to different i every time.
