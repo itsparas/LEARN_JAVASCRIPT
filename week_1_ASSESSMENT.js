@@ -235,4 +235,4 @@
 
 //question 5
 
-// this will give "1 2 3" as output because the value of i is scoped (because of the use of "let")and will refer to different i every time.
+// this will give "0 1 2" as output because the value of i is scoped (because of the use of "let")and will refer to different i every time.
